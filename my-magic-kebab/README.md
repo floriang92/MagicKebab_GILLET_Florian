@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# MagicKebab_GILLET_Florian
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Repo git
 
-## Available Scripts
+Vous pouvez retrouver, le repo git via ce lien: https://github.com/floriang92/MagicKebab_GILLET_Florian
 
-In the project directory, you can run:
+#Lancer l'application
+Pour lancer l'application vous devez lancer la commande "npm start" dans le dossier racine.
 
-### `npm start`
+#Warning
+Attention ! Vu que mon niveau en css = -1 et qu'il s'agit d'un bonus. Je n'ai pas mis de css, attention à vos yeux !
+Si jamais, vous avez un problème de vue à cause de mon application, je peux vous fournir des lunettes (je travaille à Essilor) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#Fonctionnalités disponibles
+    Voici la liste des fonctionnalités de l'application:
+        ->Selectionner des kebabs préfaits différents
+        ->Composer son propre kebab avec les limites de garnitures
+            ->Pour selectionner/deselectionner une garniture, il faut juste cliquer dessus
+            -> les règles concernants les garnitures ont bien été appliquées
+        ->Vous pouvez ajouter un kebab au panier une fois qu'il est composé
+        ->Vous pouvez modifier la quantité d'un kebab avec les boutons +1 et -1 dans le panier
+        ->Le panier apprait lorsqu'un kebab est ajouté au panier
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#Bug:
+    ->Lorsqu'une garniture est selectionnée, elle apparait en vert. Le bug est que la garniture reste en vert à la garniture suivante
+    ->la quantité n'augment pas (alors qu'elle augment dans le context)
 
-### `npm test`
+#Error:
+    ->Une error apparait lorsque l'utilisateur appuie sur 'commander' depuis le panier. Meme avec l'aide de Google et mes BFF, cette erreur est toujours là.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Explicaitons sur la viande du kebab :)
+La broche de kebab peut avoir plusieurs compisitions possibles:
+    -> 100% veau
+    -> 100% dinde
+    -> une mélange des deux
+A la base, le kebab utilise de la viande d'agneau. La viande a été changée pour s'adapter au gout des européens. L'agneau à un gout plus fort. C'est dommage car l'agneau c'est très bon :).
